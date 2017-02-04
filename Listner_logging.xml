@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "log Suite Example" verbose = "1">
+	<listeners>
+		<listener class-name="Learning_TestNG.LisnerClass"/>
+	</listeners>
+<test name ="Learing_Listner" preserve-order = "true">
+	<classes>
+		<class name ="Learning_TestNG.LoggingClass">
+			<methods>
+				<include name = "methodAddingNumber"/>
+				<include name = "dividedByZero"/>
+				<include name = "methodskip"/>
+			</methods>
+		</class>
+		<class name="Learning_TestNG.Logging_2"/>
+	</classes>
+</test>
+</suite>
+

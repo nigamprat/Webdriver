@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Order Express Test" duration-ms="65373" started-at="2016-12-24T12:28:19Z" finished-at="2016-12-24T12:29:24Z">
+    <groups>
+    </groups>
+    <test name="Test Flow1" duration-ms="65373" started-at="2016-12-24T12:28:19Z" finished-at="2016-12-24T12:29:24Z">
+      <class name="orderExpress_Test.Test_Flow1">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:orderExpress_Test.Test_Flow1@7d9d1a19]" name="LaunchBrowser" is-config="true" duration-ms="16938" started-at="2016-12-24T17:58:19Z" finished-at="2016-12-24T17:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginToCardinal()[pri:0, instance:orderExpress_Test.Test_Flow1@7d9d1a19]" name="LoginToCardinal" duration-ms="19393" started-at="2016-12-24T17:58:36Z" finished-at="2016-12-24T17:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToCardinal -->
+        <test-method status="PASS" signature="Test_Searchproduct()[pri:0, instance:orderExpress_Test.Test_Flow1@7d9d1a19]" name="Test_Searchproduct" duration-ms="11284" started-at="2016-12-24T17:58:55Z" depends-on-methods="orderExpress_Test.Test_Flow1.LoginToCardinal" finished-at="2016-12-24T17:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Searchproduct -->
+        <test-method status="PASS" signature="Test_AddProdutToCart()[pri:0, instance:orderExpress_Test.Test_Flow1@7d9d1a19]" name="Test_AddProdutToCart" duration-ms="16520" started-at="2016-12-24T17:59:06Z" depends-on-methods="orderExpress_Test.Test_Flow1.Test_Searchproduct, orderExpress_Test.Test_Flow1.LoginToCardinal" finished-at="2016-12-24T17:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_AddProdutToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:orderExpress_Test.Test_Flow1@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1156" started-at="2016-12-24T17:59:23Z" finished-at="2016-12-24T17:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orderExpress_Test.Test_Flow1 -->
+    </test> <!-- Test Flow1 -->
+  </suite> <!-- Order Express Test -->
+</testng-results>

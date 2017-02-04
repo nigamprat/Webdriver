@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterizaton Test Suite">
+<test name="Testing Parameterization">
+	<parameter name="browser" value="Firefox"/>
+	<parameter name="userName" value="testuser"/>
+	<parameter name="password" value="testpassword"/>
+	<classes>
+		<class name="Learing_TestNG_paramerterization.TestParameters"/>
+	</classes>
+</test>
+</suite>

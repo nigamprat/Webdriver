@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Order Express Test]">
+  <test name="Test Flow1(failed)">
+    <classes>
+      <class name="orderExpress_Test.Test_Flow1">
+        <methods>
+          <include name="Test_AddProdutToCart"/>
+          <include name="tearDown"/>
+          <include name="Test_Searchproduct"/>
+          <include name="LaunchBrowser"/>
+          <include name="LoginToCardinal"/>
+        </methods>
+      </class> <!-- orderExpress_Test.Test_Flow1 -->
+    </classes>
+  </test> <!-- Test Flow1(failed) -->
+</suite> <!-- Failed suite [Order Express Test] -->

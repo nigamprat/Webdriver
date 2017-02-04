@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Assert Suite">
+	<test name="Test_Assertion Run">
+		<parameter name="username" value="ac.a.qctest3_new"/>
+		<parameter name="password" value="Cardinal1"/>
+		<classes>
+			<class name="learning_TestNG_Assertion.Test_Assertion"/>
+		</classes>
+	</test>
+</suite>

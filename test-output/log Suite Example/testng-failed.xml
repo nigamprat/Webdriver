@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [log Suite Example]">
+  <listeners>
+    <listener class-name="Learning_TestNG.LisnerClass"/>
+  </listeners>
+  <test name="Learing_Listner(failed)">
+    <classes>
+      <class name="Learning_TestNG.Logging_2">
+        <methods>
+          <include name="Test_SearchProduct"/>
+        </methods>
+      </class> <!-- Learning_TestNG.Logging_2 -->
+      <class name="Learning_TestNG.LoggingClass">
+        <methods>
+          <include name="methodskip"/>
+          <include name="dividedByZero"/>
+        </methods>
+      </class> <!-- Learning_TestNG.LoggingClass -->
+    </classes>
+  </test> <!-- Learing_Listner(failed) -->
+</suite> <!-- Failed suite [log Suite Example] -->

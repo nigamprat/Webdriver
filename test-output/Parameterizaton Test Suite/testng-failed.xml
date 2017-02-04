@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterizaton Test Suite]">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="password" value="testpassword"/>
+  <test name="Testing Parameterization(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="password" value="testpassword"/>
+    <classes>
+      <class name="Learing_TestNG_paramerterization.TestParameters">
+        <methods>
+          <include name="testcasetwo"/>
+        </methods>
+      </class> <!-- Learing_TestNG_paramerterization.TestParameters -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterizaton Test Suite] -->
